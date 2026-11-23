@@ -48,8 +48,8 @@ Author
 Kobe Bryle Uyangorin
 
 Computer Engineering | Developer
-- GitHub: [Your GitHub Profile](https://github.com/dojobinkz)
-- LinkedIn: [linkedin.com/in/bryleuyn/](https://linkedin.com/in/bryleuyn/)
+- GitHub: https://github.com/dojobinkz
+- LinkedIn: (https://linkedin.com/in/bryleuyn/)
 
 ---
 Built with curiosity, creativity, and a willingness to keep learning
