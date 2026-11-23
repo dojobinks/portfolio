@@ -7,7 +7,7 @@ About the Project
 Ima be showcasing my projects and experiences here
 
 - NextJS
-- TailWindCss
+- TailwindCSS
 
 
 ## Getting Started
