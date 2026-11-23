@@ -76,14 +76,14 @@ export function Sidebar() {
                       onClick={toggleMusic}
                       aria-label={isPlaying ? "Pause background music" : "Play background music"}
                       aria-pressed={isPlaying}
-                      title={musicError ? "Could not load public/audio2.mp3" : undefined}
-                      className="text-muted-foreground transition-colors hover:text-foreground"
+                      title={musicError ? "Could not load public/audio3.mp3" : undefined}
+                      className="inline-flex size-8 shrink-0 items-center justify-center rounded-full border border-border bg-accent text-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary hover:text-primary-foreground hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 active:translate-y-0 active:shadow-sm"
                     >
                       <AudioLines className="size-4" aria-hidden="true" />
                     </button>
                     <audio
                       ref={audioRef}
-                      src="/audio2.mp3"
+                      src="/audio3.mp3"
                       className="hidden"
                       preload="none"
                       onPlay={() => setIsPlaying(true)}
