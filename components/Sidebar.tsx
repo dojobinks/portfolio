@@ -77,7 +77,7 @@ export function Sidebar() {
                       aria-label={isPlaying ? "Pause background music" : "Play background music"}
                       aria-pressed={isPlaying}
                       title={musicError ? "Could not load public/audio3.mp3" : undefined}
-                      className="inline-flex size-8 shrink-0 items-center justify-center rounded-full border border-border bg-accent text-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary hover:text-primary-foreground hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 active:translate-y-0 active:shadow-sm"
+                      className="inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-border bg-accent text-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary hover:text-primary-foreground hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 active:translate-y-0 active:shadow-sm"
                     >
                       <AudioLines className="size-4" aria-hidden="true" />
                     </button>
@@ -117,13 +117,13 @@ export function Sidebar() {
             <div className = "grid grid-cols-2 rule-b">
                 <a 
                 href = {`mailto:${profile.email}`}
-                className = "flex items-center justify-center gap-1 py-4 font-sans text-sm transition-colors hover:bg-accent rule-r"
+                className = "flex items-center justify-center gap-1 py-4 font-sans text-sm transition-colors hover:bg-accent active:bg-accent rule-r"
                 >
                     Email <ArrowUpRight className = "size-3.5"/>
                 </a>
                 <a 
                 href = {profile.resume}
-                className = "flex items-center justify-center gap-1 py-4 font-sans text-sm transition-colors hover:bg-accent"
+                className = "flex items-center justify-center gap-1 py-4 font-sans text-sm transition-colors hover:bg-accent active:bg-accent"
                 >
                     Resume <ArrowUpRight className = "size-3.5"/>
                 </a>
@@ -141,7 +141,7 @@ export function Sidebar() {
                     rel="noreferrer"
                     aria-label={label}
                     className={cn(
-                    "flex items-center justify-center py-4 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground",
+                    "flex items-center justify-center py-4 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground active:bg-accent active:text-foreground",
                     i < 2 && "rule-r",
                     )}
                 >

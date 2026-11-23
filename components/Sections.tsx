@@ -26,7 +26,7 @@ export function Projects(){
                         href={p.url}
                         target= "_blank"
                         rel= "noreferreer"
-                        className="group flex flex-col  border border-dashed p-5 transition-colors hover:bg-accent">
+                        className="group flex flex-col border border-dashed p-5 transition-colors hover:bg-accent active:bg-accent">
                             <div className="flex items-center justify-between text-[11px] uppercase tracking-wide text-muted-foreground">
                                 <span>{p.kind}</span>
                                 <span>{p.year}</span>
@@ -121,7 +121,7 @@ export function Contact() {
       </dl>
       <a
         href={`mailto:${profile.email}`}
-        className="group mt-6 flex items-center justify-between gap-6 border border-foreground p-5 text-sm leading-6 transition-colors hover:bg-foreground hover:text-background"
+        className="group mt-6 flex items-center justify-between gap-6 border border-foreground p-5 text-sm leading-6 transition-colors hover:bg-foreground hover:text-background active:bg-foreground active:text-background"
       >
         <span>
           Interested? Send a role summary, your stack, and a time to talk — I'll reply with fit and
