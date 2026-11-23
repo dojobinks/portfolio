@@ -11,7 +11,7 @@ export default function HomePage() {
       <Skills />
       <Contact />
       <footer className="pt-8 text-[11px] text-muted-foreground">
-        © {YEAR} {profile.name}. Built with React & Tailwind.
+        © {YEAR} {profile.name}. Built with NextJs & TailwindCSS.
       </footer>
     </>
   );
